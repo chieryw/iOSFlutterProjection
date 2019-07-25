@@ -14,6 +14,7 @@
 		C03B5D3022E17793007CAC9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C03B5D2F22E17793007CAC9C /* main.m */; };
 		C03B5D3722E17DB7007CAC9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03B5D3622E17DB7007CAC9C /* Main.storyboard */; };
 		C03B5D3A22E17E20007CAC9C /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = C03B5D3822E17E20007CAC9C /* GeneratedPluginRegistrant.m */; };
+		C0818FAE22E9A9F300226FE9 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0818FAD22E9A9F300226FE9 /* FirstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		C03B5D3622E17DB7007CAC9C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C03B5D3822E17E20007CAC9C /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
 		C03B5D3922E17E20007CAC9C /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
+		C0818FAC22E9A9F300226FE9 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		C0818FAD22E9A9F300226FE9 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 				C03B5D2B22E17793007CAC9C /* LaunchScreen.storyboard */,
 				C03B5D2E22E17793007CAC9C /* Info.plist */,
 				C03B5D2F22E17793007CAC9C /* main.m */,
+				C0818FAC22E9A9F300226FE9 /* FirstViewController.h */,
+				C0818FAD22E9A9F300226FE9 /* FirstViewController.m */,
 			);
 			path = iOSFlutterProjection;
 			sourceTree = "<group>";
@@ -242,6 +247,7 @@
 				C03B5D3022E17793007CAC9C /* main.m in Sources */,
 				C03B5D2222E17791007CAC9C /* AppDelegate.m in Sources */,
 				C03B5D3A22E17E20007CAC9C /* GeneratedPluginRegistrant.m in Sources */,
+				C0818FAE22E9A9F300226FE9 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +384,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MN863V35DU;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = iOSFlutterProjection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -396,7 +404,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MN863V35DU;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = iOSFlutterProjection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
